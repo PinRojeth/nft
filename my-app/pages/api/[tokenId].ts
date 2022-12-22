@@ -9,7 +9,7 @@ export default function handler(req: { query: { tokenId: any; }; }, res: { json:
   const image = `https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/${Number(tokenId) - 1}.svg`
   const external_link = `https://raw.githubusercontent.com/LearnWeb3DAO/NFT-Collection/main/my-app/public/cryptodevs/`
   const seller_fee_basis_points = 100
-  const fee_recipient = "0xef9E76a5A3d4dF6B364F0C6675eC70c414Ff4222"
+  const fee_recipient = "0x3c1a9e1bF7D4e1c8b9b1C9A7E931dFCafD2867ba"
 
   return res.json ({
     name: name,
